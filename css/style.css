@@ -94,6 +94,7 @@ body {
     /* animation-iteration-count: 3; */ }
     @media (max-width: 37.5em) {
       .heading-primary--main {
+        font-size: 5rem;
         letter-spacing: 1rem; } }
   .heading-primary--sub {
     font-size: 2rem;
@@ -103,8 +104,7 @@ body {
     animation: moveInRight 1s ease-out; }
     @media (max-width: 37.5em) {
       .heading-primary--sub {
-        letter-spacing: .5rem;
-        font-size: 5rem; } }
+        letter-spacing: 0.5rem; } }
 
 .heading-secondary {
   font-size: 3.5rem;
@@ -115,7 +115,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
-  transition: all .2s;
+  transition: all 0.2s;
   background-clip: text; }
   @media (max-width: 56.25em) {
     .heading-secondary {
